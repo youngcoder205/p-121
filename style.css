@@ -1,0 +1,50 @@
+body
+{
+    text-align: left;
+    background-image: linear-gradient(violet, indigo, blue, green, yellow, orange, red);
+}
+
+img
+{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.image
+{
+    text-align: left;
+}
+
+.results
+{
+    border-radius: 20px;
+    text-align: center;
+    background-color: gray;
+}
+
+#h1
+{
+    text-align: center;
+}
+
+.grid{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+.item{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+background-color: aqua;
+text-align: center;
+border-radius: 20px;
+}
+
+.item:hover img{
+opacity: 0.3;
+transform: scale(1.5);
+}
